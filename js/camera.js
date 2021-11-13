@@ -24,7 +24,7 @@ class Camera {
                 }
             }).then(stream => {
                // console.log( this.videoNode.srcObject );
-                this.alt='frontal'
+                this.alt='Frontal'
                 this.videoNode.srcObject = stream;
                 this.stream = stream;
                 return true
@@ -54,6 +54,7 @@ class Camera {
                 }
             }).then(stream => {
                // console.log({stream});
+               this.alt='Trasera'
                 this.videoNode.srcObject = stream;
                 this.stream = stream;
                 return true
