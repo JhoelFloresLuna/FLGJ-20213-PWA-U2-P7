@@ -1,6 +1,4 @@
-body {
-    margin: 5px 0;
-  }
+
   
   .card {
     border-radius: 8px;
@@ -39,4 +37,23 @@ body {
     display: flex;
     flex: 0 0 auto;
     flex-direction: column;
+  }
+
+
+  @media (min-width: 550px) { 
+    button{
+      margin-top: 10px;
+    }
+    #photoContainer h1{
+      padding-top: 10px;
+    }
+  }
+
+  @media (min-width: 350px) { 
+    button{
+      margin-top: 10px;
+    }
+    #photoContainer h1{
+      padding-top: 10px;
+    }
   }

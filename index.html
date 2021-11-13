@@ -15,7 +15,7 @@
     <title>Recursos nativos</title>
 </head>
 
-<body>
+<body class="container">
     <h1 class="text-center">Acceso a cámaras</h1>
     <div class="row mt-2">
         <div class="col-12 text-center">
@@ -24,30 +24,28 @@
             </div>
         </div>
     </div>
-    <div class="container d-flex flex-wrap align-items-center mb-2 mt-3">
-        <div class="col-lg-4 m-2">
+    <div class="d-flex justify-content-center row">
+        <div class="col-lg-4 ">
             <button id="btnCamera" class="btn btn-primary btn-block">Cámara frontal</button>
         </div>
 
-        <div class="col-lg-4 m-2">
+        <div class="col-lg-4 ">
             <button id="btnCameraBack" class="btn btn-info btn-block">Cámara Trasera</button>
         </div>
 
-        <div class="col-lg-4 m-2">
+        <div class="col-lg-4 ">
             <button id="btnTakePhoto" class="btn btn-success btn-block">Tomar foto</button>
         </div>
     </div>
-    <div class="container d-flex flex-wrap align-items-center" id="photoContainer">
-        <div class="m-2 card">
+    <div class="d-flex justify-content-center row" id="photoContainer">
+        <div class="m-2 card mt-5">
             <img class="card-img-top"
-                src="images/user.png"
+                src="./images/user.png"
                 alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">Frontal</h5>
             </div>
         </div>
-
-
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->

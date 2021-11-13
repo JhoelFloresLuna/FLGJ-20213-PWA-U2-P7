@@ -5,7 +5,7 @@ class Camera {
         this.stream = null;
         this.photo = null;
         this.alt = "";
-        console.log('Creamos new camera :D')
+        //console.log('Creamos new camera :D')
     }
 
     

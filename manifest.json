@@ -1,6 +1,6 @@
 {
     "short_name": "PWA-Nativos",
-    "name": "Acceso a camara",
+    "name": "Acceso a cámara",
     "start_url": "index.html",
     "display": "standalone",
     "orientation": "portrait",

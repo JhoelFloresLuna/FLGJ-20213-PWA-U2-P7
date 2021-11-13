@@ -47,7 +47,7 @@ btnTakePhoto.on("click", async() => {
     camera.off();
     const [foto, tipo] = camera.takePhoto();
     const card = `
-      <div class="m-2 card">
+      <div class="m-2 card mt-5">
               <img class="card-img-top"
                   src="${foto}"
                   alt="Card image cap">
